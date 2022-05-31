@@ -1,0 +1,47 @@
+Disk /dev/nvme0n1: 1.9 TiB, 2048408248320 bytes, 4000797360 sectors
+64+0 records in
+64+0 records out
+64 bytes copied, 0.00114001 s, 56.1 kB/s
+total 0
+crw------- 1 root root 10, 236 Sep 22 10:34 control
+lrwxrwxrwx 1 root root       7 Sep 22 11:03 rekorluks -> ../dm-0
+sudo: vgcreate: command not found
+sudo: vgdisplay: command not found
+sudo: lvcreate: command not found
+sudo: lvdisplay: command not found
+mke2fs 1.44.1 (24-Mar-2018)
+The file /dev/rekor_luks_vg/rekor_luks_logvol does not exist and no size was specified.
+mount: /rekor_luks: special device /dev/rekor_luks_vg/rekor_luks_logvol does not exist.
+LUKS header information for /dev/nvme0n1p1
+
+Version:       	1
+Cipher name:   	aes
+Cipher mode:   	xts-plain64
+Hash spec:     	sha256
+Payload offset:	4096
+MK bits:       	256
+MK digest:     	ec 80 8c 54 51 77 c7 a7 a2 36 f7 0c 20 94 2f 75 3b 77 fa c7 
+MK salt:       	8b f2 4a 66 e0 47 71 40 8d 33 20 90 01 bf f1 3b 
+               	1d b1 a8 50 ff ec 34 85 d8 31 07 d7 a3 d0 94 34 
+MK iterations: 	198593
+UUID:          	4eab8bd2-5188-4b5d-b522-9406f1e0f791
+
+Key Slot 0: ENABLED
+	Iterations:         	3177502
+	Salt:               	d5 ca 63 75 e5 ea a0 46 0e 1f fd f9 1e f0 95 54 
+	                      	ad e5 97 85 ed dd c7 6f 6e ec 37 7e 1b 3f 74 cd 
+	Key material offset:	8
+	AF stripes:            	4000
+Key Slot 1: ENABLED
+	Iterations:         	3518710
+	Salt:               	84 2a 76 62 9e 04 88 dd db 8a 3d 18 ee e6 43 e0 
+	                      	d1 4f a0 61 8e b1 e1 a3 9c 18 e7 d9 88 8c fb aa 
+	Key material offset:	264
+	AF stripes:            	4000
+Key Slot 2: DISABLED
+Key Slot 3: DISABLED
+Key Slot 4: DISABLED
+Key Slot 5: DISABLED
+Key Slot 6: DISABLED
+Key Slot 7: DISABLED
+============ SSD encryption is now complete ===================
