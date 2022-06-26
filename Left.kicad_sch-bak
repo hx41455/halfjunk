@@ -4839,6 +4839,22 @@
     (pin "2" (uuid 596a77bb-8ce5-44ba-bcdf-5c16cfeb1fe7))
   )
 
+  (symbol (lib_id "power:VCC") (at 99.06 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 0ea17ee8-ee1d-44c3-b30d-472d6baa1a38)
+    (property "Reference" "#PWR?" (id 0) (at 99.06 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (id 1) (at 99.06 109.22 0))
+    (property "Footprint" "" (id 2) (at 99.06 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 99.06 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eca06143-70eb-46a6-93f2-9ec3e0d6a84b))
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 349.25 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0efb6afe-d4ea-45fa-94ce-79f09febd536)
@@ -7370,22 +7386,6 @@
     (pin "2" (uuid f113e17c-649c-4f55-b057-807c88d4ad0d))
   )
 
-  (symbol (lib_id "power:+5V") (at 99.06 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid b45d285b-e130-43e6-adb0-8439aec73c33)
-    (property "Reference" "#PWR?" (id 0) (at 99.06 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 99.06 109.22 0))
-    (property "Footprint" "" (id 2) (at 99.06 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 99.06 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc3cc09e-44a5-4cb8-8466-a5452eb3acce))
-  )
-
   (symbol (lib_id "Device:R_Small") (at 151.13 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b660c695-9b9c-40ec-b13b-cf76ee885743)
@@ -8527,8 +8527,8 @@
     (path "/0bcd659d-6276-40c3-b44e-bbf1bd2533dc"
       (reference "#PWR026") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/b45d285b-e130-43e6-adb0-8439aec73c33"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    (path "/0ea17ee8-ee1d-44c3-b30d-472d6baa1a38"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/80531ea4-600c-4582-a0be-6e2233161d7f"
       (reference "C1") (unit 1) (value "22pF") (footprint "")
