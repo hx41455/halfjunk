@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "kicad-keyboard-parts.pretty")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/kicad-keyboard-parts.pretty-master")(options "")(descr ""))
+  (lib (name "keyswitches.pretty-2")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/keyswitches.pretty-2.1")(options "")(descr ""))
+  (lib (name "ATmega32U4")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/kicad-ATmega32U4-master")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/Keebio-Parts.pretty-master")(options "")(descr ""))
+  (lib (name "rollyboi9000000-main")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/rollyboi9000000-main")(options "")(descr ""))
+)
