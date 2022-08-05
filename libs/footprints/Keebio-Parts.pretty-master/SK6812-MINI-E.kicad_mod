@@ -27,7 +27,7 @@
   (pad "2" smd rect (at -2.55 -0.75) (size 1.7 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1510a014-44ad-4d44-aa0f-cd8daf1f4652))
   (pad "3" smd roundrect (at 2.55 -0.75) (size 1.7 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c5699a1e-2ce8-4024-a58a-62e137ab16b8))
   (pad "4" smd rect (at 2.55 0.75) (size 1.7 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5f3cdf1c-c1a4-4964-a79f-5e1cf335f59b))
-  (model "/home/mgurvich/.local/share/kicad/6.0/footprints/Keebio-Parts.pretty-master/3dmodels/SK6812MINI-E v1.step"
+  (model "${KIPRJMOD}/libs/footprints/Keebio-Parts.pretty-master/3dmodels/SK6812MINI-E v1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

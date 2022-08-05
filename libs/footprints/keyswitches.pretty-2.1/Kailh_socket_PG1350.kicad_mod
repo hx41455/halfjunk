@@ -81,14 +81,19 @@
   (pad "" np_thru_hole circle (at 5.5 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask) (tstamp db37e28a-cd2d-46d6-92c1-4c038197d7a7))
   (pad "1" smd rect (at 3.275 5.95) (size 2.6 2.6) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp cec7122e-fb00-4c67-9ad1-13e2f92a0a35))
   (pad "2" smd rect (at -8.275 3.75) (size 2.6 2.6) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 17aae789-21ab-45a6-8a92-2c41f860064d))
-  (model "${CUSTOMS}/lp/Kailh Choc Low Profile Switch.step"
+  (model "${KIPRJMOD}/libs/3dmodels/lp/Kailh Choc Low Profile Switch.step"
     (offset (xyz 0 0 2.12))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${CUSTOMS}/lp/PG1350-socket.STEP"
+  (model "${KIPRJMOD}/libs/3dmodels/lp/PG1350-socket.STEP"
     (offset (xyz 5 -3.75 -1.675))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/libs/3dmodels/lp/MBK_Keycap_-_1u.step"
+    (offset (xyz 0 0 6.35))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
