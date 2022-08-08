@@ -7185,7 +7185,7 @@
     (uuid 5aa9b6ff-c232-4ed0-83b2-ec2d42da5ab3)
     (property "Reference" "SW301" (id 0) (at 190.5 76.2 0))
     (property "Value" "SW_Push" (id 1) (at 190.5 78.74 0))
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem" (id 2) (at 190.5 78.74 0)
+    (property "Footprint" "Keebio-Parts:SW_SPST_TL3342" (id 2) (at 190.5 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 190.5 78.74 0)

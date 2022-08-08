@@ -1533,7 +1533,7 @@
       (reference "R354") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/3199e3ac-5a33-4926-ac26-1d1048cc2303"
-      (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
+      (reference "SW201") (unit 1) (value "SW_Push") (footprint "Keebio-Parts:SW_SPST_TL3342")
     )
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/c89358e6-f40d-4835-809a-c86f478cdc69"
       (reference "SW202") (unit 1) (value "RotaryEncoder") (footprint "Rotary_Encoder.pretty:kailh_EN97xx_rotary_encoder")
@@ -1656,7 +1656,7 @@
       (reference "SW241") (unit 1) (value "SW_Push") (footprint "keyswitches.pretty-2:Kailh_socket_PG1350")
     )
     (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/5aa9b6ff-c232-4ed0-83b2-ec2d42da5ab3"
-      (reference "SW301") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
+      (reference "SW301") (unit 1) (value "SW_Push") (footprint "Keebio-Parts:SW_SPST_TL3342")
     )
     (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/7fad4f0f-7892-4d48-8af8-2b3f127db18b"
       (reference "SW302") (unit 1) (value "SW_Push") (footprint "keyswitches.pretty-2:Kailh_socket_PG1350")
