@@ -1,4 +1,4 @@
-20674894887155917
+20681569425659318
 ATmega32U4
 ATmega32U4
 
@@ -87073,7 +87073,35 @@ kailh,choc
 2
 2
 keyswitches.pretty-2
+Kailh_socket_PG1350_2.25U_inverse
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches.pretty-2
 Kailh_socket_PG1350_2U
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches.pretty-2
+Kailh_socket_PG1350_2U_Vert
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches.pretty-2
+Kailh_socket_PG1350_2U_Vert_inverse
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+keyswitches.pretty-2
+Kailh_socket_PG1350_2U_inverse
 Kailh "Choc" PG1350 keyswitch socket mount
 kailh,choc
 0
