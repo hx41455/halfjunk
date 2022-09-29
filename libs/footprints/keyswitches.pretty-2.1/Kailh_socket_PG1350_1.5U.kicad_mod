@@ -93,7 +93,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/libs/3dmodels/lp/Kailh LP Choc Burnt Orange.STEP"
+  (model "${KIPRJMOD}/libs/3dmodels/lp/Kailh LP Choc Burnt Orange.STEP" hide
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
