@@ -434,6 +434,9 @@
     (path "/cce87e19-86ab-4360-9cb7-e9c630e605bc"
       (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/12067ebc-5daa-435c-889a-15a7802e4a14/b1b35873-81ae-43f8-850a-0f82420bc79d"
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/315a2f47-8758-48c6-aff9-af988fe419f7"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
@@ -446,8 +449,14 @@
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/8e33b138-42e5-4e98-b6e6-a5c35b5a89dd"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
+    (path "/12067ebc-5daa-435c-889a-15a7802e4a14/a30513ee-6cca-4200-8a65-a00c7f97d52a"
+      (reference "#PWR0202") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/9411d90c-d762-4ca1-9d7a-43bb2e66bf92"
       (reference "#PWR0203") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/12067ebc-5daa-435c-889a-15a7802e4a14/3d5f5b06-cd83-4286-8df0-b4976681c473"
+      (reference "#PWR0204") (unit 1) (value "GND") (footprint "")
     )
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/85248370-76a0-4b0b-845a-fa9f9d0ac55d"
       (reference "#PWR0205") (unit 1) (value "+5V") (footprint "")
@@ -506,8 +515,14 @@
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/757601d6-823b-4645-b99e-3e70d0550083"
       (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
     )
+    (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/9c1e3d85-9bfc-4b10-9beb-82f01a157eb5"
+      (reference "#PWR0301") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/6f3727a8-4f3f-42aa-84ee-f20d429a1afb"
       (reference "#PWR0302") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/3e00ef77-3143-4d9f-b349-8a93a2a7724c"
+      (reference "#PWR0303") (unit 1) (value "GND") (footprint "")
     )
     (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/94a6f005-ac99-43b5-81a2-06e383f0323b"
       (reference "#PWR0304") (unit 1) (value "VCC") (footprint "")
@@ -568,9 +583,6 @@
     )
     (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/5bf3edb0-e6ae-428e-bb0a-003837aa079c"
       (reference "#PWR0324") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/12067ebc-5daa-435c-889a-15a7802e4a14/b1b35873-81ae-43f8-850a-0f82420bc79d"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/80531ea4-600c-4582-a0be-6e2233161d7f"
       (reference "C201") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1397,8 +1409,14 @@
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/c54f555a-3950-4493-b7a7-064ee7bd77ab"
       (reference "J201") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Type-C:HRO-TYPE-C-31-M-13")
     )
+    (path "/12067ebc-5daa-435c-889a-15a7802e4a14/fda17439-6b92-431c-8d88-3737d57c10c8"
+      (reference "J202") (unit 1) (value "Conn_01x04_Female") (footprint "Keebio-Parts:I2C_Breakout")
+    )
     (path "/12067ebc-5daa-435c-889a-15a7802e4a14/068b51b9-63b7-4dfa-9c0e-876f6c93f7d9"
       (reference "J203") (unit 1) (value "AVR-ISP-6") (footprint "Keebio-Parts:ICSP-Header")
+    )
+    (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/2799b38e-2ce1-45d0-aaeb-097aed405fb6"
+      (reference "J301") (unit 1) (value "Conn_01x04_Female") (footprint "Keebio-Parts:I2C_Breakout")
     )
     (path "/aa1f9ebc-21d8-4d0a-b2c6-d17635c6a849/1fa6372d-b11e-47e7-ab5b-ccad1cfc2ec6"
       (reference "J302") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Type-C:HRO-TYPE-C-31-M-13")
